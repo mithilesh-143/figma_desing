@@ -1,0 +1,254 @@
+@media only screen and (max-width: 1024px) {
+
+    /* header */
+    .conta {
+        display: flex;
+        gap: 20px;
+        align-items: center;
+        justify-content: center;
+        width: 750px;
+    }
+
+    .logo {
+        width: 110px;
+        margin: 0;
+    }
+
+    .menu ul {
+        display: flex;
+        gap: 15px;
+        list-style-type: none;
+    }
+
+    .con_but {
+        border-radius: 22px;
+        width: 123px;
+        border: 2px solid var(--light-blue);
+        color: var(--light-blue);
+        padding: 5px;
+        padding-left: 5px;
+        margin: 0;
+    }
+
+    /* bacimg */
+
+    .fontimg {
+        width: 600px;
+        margin: 0 auto;
+        padding-bottom: 28px;
+    }
+
+    .bacimg {
+        background-image: url(backimage.jpg);
+        width: 100%;
+        height: 378px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-top: 90px;
+        background-position: 0 -50px;
+    }
+
+    .ac {
+        color: #FFFFFF;
+        font-family: "Open Sans", sans-serif;
+        font-size: 16px;
+        font-weight: 600;
+        border-radius: 10px;
+        background-color: var(--dark-blue);
+        text-decoration: none;
+        width: 180px;
+        padding: 9px;
+        margin: 0;
+        display: inline-block;
+    }
+
+    .pre1 {
+        color: var(--dark-blue);
+        font-family: "Open Sans", sans-serif;
+        font-weight: 400;
+        font-size: 17px;
+        text-align: center;
+        margin: 0;
+    }
+
+    /* sestrta */
+
+    .sestrta {
+        margin: 0 auto;
+    }
+
+    .flex_box {
+        border: 2px solid #0000001A;
+        border-radius: 15px;
+        padding: 5px;
+    }
+
+    .img1 {
+        background-color: var(--light-blue);
+        border-radius: 10px;
+        padding: 7px;
+        margin-right: 10px;
+        width: 32px;
+    }
+
+    .p_tag p {
+        font-size: 10px;
+        width: 100px;
+        padding-top: 20px;
+        margin: 0;
+    }
+
+    .flex_box:hover {
+        border: 2px solid var(--light-blue);
+        border-radius: 15px;
+        padding: 12px;
+    }
+
+    /* section_one */
+
+    .bacset {
+        background-color: var(--dark-blue);
+        color: #FFFFFF;
+        display: block;
+        gap: 36px;
+        padding: 65px 34px 65px 0;
+        border-radius: 10px;
+    }
+
+    .work {
+        display: flex;
+        gap: 15px;
+        justify-content: center;
+        align-items: center;
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    .main_1 img {
+        background-color: yellow;
+       width: 30%;
+    }
+
+    .main_1 {
+        border: 2px solid #0000001A;
+        border-radius: 10px;
+        padding: 20px;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    h4 {
+        font-size: 10px;
+        font-family: "Poppins", sans-serif;
+        line-height: 100%;
+        margin: 0;
+        padding: 0px 34px
+    }
+
+    .main_1 p {
+        font-size: 10px;
+        color: #333333;
+        margin: 0;
+        padding-top: 8px;
+        transition-property: scale;
+        transition-duration: 2s;
+        transition-timing-function: linear;
+        transition-delay: 1s;
+    }
+
+
+    /* section_three */
+
+    .ab {
+        font-size: 32px;
+    }
+
+    .aco p {
+        font-size: 12px;
+    }
+
+    .maindiv .su2md {
+        flex: 2 0 350px;
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .maindiv {
+        gap: 10px;
+    }
+
+    .bca {
+        padding: 29px 19px;
+        width: 170px;
+    }
+
+    .maindiv h5 {
+        font-size: 10px;
+        margin-top: 0;
+        padding-top: 0;
+    }
+
+    .lastdiv {
+        padding: 29px 19px;
+        width: 140px;
+    }
+
+    .sub1_div {
+        padding: 29px 19px;
+        width: 178px;
+    }
+
+    .bca img,
+    .su3md img,
+    .lastdiv img {
+        width: 37px;
+    }
+
+    .maindiv img {
+        padding: 7px;
+    }
+
+    .bgshape {
+    position: absolute;
+    top: 60px;
+    left: 59%;
+    z-index: -1;
+    width: 220px;
+    }
+
+    .bg-shape {
+    position: absolute;
+    top: 127px;
+    left: 100px;
+    z-index: -1;
+    width: 220px;
+    }
+
+    .maindiv .bca:hover, .sub1_div:hover, .lastdiv:hover{
+        width: 178px;
+    }
+    .lastdiv p {
+        font-size: 10px;
+        margin:0;
+        padding: 0;
+    }
+/* <!-- new5 start --> */
+
+h3 {
+    font-size: 24px;
+}
+    /* start footer */
+
+    .fter {
+
+        margin: 25px 0px;
+        gap: 30px;
+    }
+
+    .enfter {
+        justify-content: space-evenly;
+    }
+}
