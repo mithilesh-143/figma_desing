@@ -39,7 +39,7 @@
     }
 
     .bacimg {
-        background-image: url(backimage.jpg);
+        background-images: url(backimages.jpg);
         width: 100%;
         height: 378px;
         background-repeat: no-repeat;
